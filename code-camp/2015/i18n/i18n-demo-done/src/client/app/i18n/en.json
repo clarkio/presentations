@@ -1,0 +1,16 @@
+{
+    "title": "Internationalization",
+    "language": "Language",
+    "languages": {
+        "english": "English",
+        "spanish": "Spanish",
+        "french": "French"
+    },
+    "createdBy": 'Created by John Papa',
+    "First_Name": "First Name",
+    "Last_Name": "Last Name",
+    "Age": "Age",
+    "Location": "Location",
+    "Messages": "Messages",
+    "People": "People"
+}
