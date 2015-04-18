@@ -6,7 +6,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
-var port = process.env.PORT || 8002;
+var port = process.env.PORT || 8001;
 var four0four = require('./utils/404')();
 
 var environment = process.env.NODE_ENV;
@@ -47,7 +47,7 @@ switch (environment){
         break;
 }
 
-app.listen(3001, function() {
+app.listen(port, function() {
     console.log('Express server listening on port ' + port);
     console.log('env = ' + app.get('env') +
         '\n__dirname = ' + __dirname  +

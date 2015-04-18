@@ -22,7 +22,7 @@
         function TopNavController($translate) {
             var vm = this;
             vm.changeLanguage = changeLanguage;
-        
+
             function changeLanguage(languageKey) {
                 $translate.use(languageKey);
             }
@@ -31,10 +31,3 @@
         return directive;
     }
 })();
-
-
-
-
-$translateProvder.translations('en', {
-    'HELLO_WORLD': 'Hello World'
-});
